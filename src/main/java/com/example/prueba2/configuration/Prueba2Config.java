@@ -29,13 +29,13 @@ public class Prueba2Config {
 
     private ApiInfo getApiInfo() {
         return new ApiInfo(
-                "Order Service API",
-                "Order Service API Description",
+                "API Usuarios",
+                "API para la gestion de usuarios",
                 "1.0",
-                "http://codmind.com/terms",
-                new Contact("Codmind", "https://codmind.com", "apis@codmind.com"),
-                "LICENSE",
-                "LICENSE URL",
+                "",
+                new Contact("", "", ""),
+                "",
+                "",
                 Collections.emptyList()
         );
     }
